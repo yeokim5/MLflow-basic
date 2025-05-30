@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Soft11/Downloads/MLFLOW-TEST/mlruns/0/57c93e4394a94aea810d9c8840acf82e/artifacts
+end_time: 1748581749540
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57c93e4394a94aea810d9c8840acf82e
+run_name: caring-bat-650
+run_uuid: 57c93e4394a94aea810d9c8840acf82e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748581742350
+status: 3
+tags: []
+user_id: Soft11

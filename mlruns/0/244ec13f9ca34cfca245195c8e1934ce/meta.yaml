@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Soft11/Downloads/MLFLOW-TEST/mlruns/0/244ec13f9ca34cfca245195c8e1934ce/artifacts
+end_time: 1748581734236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 244ec13f9ca34cfca245195c8e1934ce
+run_name: capable-mink-779
+run_uuid: 244ec13f9ca34cfca245195c8e1934ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748581725498
+status: 3
+tags: []
+user_id: Soft11

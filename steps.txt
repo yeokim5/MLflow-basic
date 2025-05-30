@@ -1,0 +1,13 @@
+conda create -n mlproj python=3.8 -y
+
+conda activate mlproj
+conda deactivate
+
+pip install -r .\requirements.txt
+
+Select Intrepreter
+
+---
+
+`mlflow ui`
+opens ml flow ui

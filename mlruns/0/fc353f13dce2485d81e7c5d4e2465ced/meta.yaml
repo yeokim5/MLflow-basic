@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Soft11/Downloads/MLFLOW-TEST/mlruns/0/fc353f13dce2485d81e7c5d4e2465ced/artifacts
+end_time: 1748581057672
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc353f13dce2485d81e7c5d4e2465ced
+run_name: persistent-croc-320
+run_uuid: fc353f13dce2485d81e7c5d4e2465ced
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748581049585
+status: 3
+tags: []
+user_id: Soft11
