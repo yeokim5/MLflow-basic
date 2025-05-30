@@ -33,6 +33,19 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
+    # Set up DagsHub tracking URI
+    remote_server_uri = "https://dagshub.com/yeokim5/MLflow-basic.mlflow"
+    mlflow.set_tracking_uri(remote_server_uri)
+    
+    # Set DagsHub credentials directly
+    # Replace these values with your actual username and token
+    dagshub_username = "yeokim5"
+    dagshub_token = "0ff2fad22a0a1ad94ace2c781b07394715d8876b"
+    
+    # Set environment variables for MLflow
+    os.environ['MLFLOW_TRACKING_USERNAME'] = dagshub_username
+    os.environ['MLFLOW_TRACKING_PASSWORD'] = dagshub_token
+    
     # Read the wine-quality csv file from the URL
     csv_url = (
         "https://raw.githubusercontent.com/mlflow/mlflow/master/tests/datasets/winequality-red.csv"
@@ -87,7 +100,6 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
-            )
+                lr, "model", registered_model_name="ElasticnetWineModel")
         else:
-            mlflow.sklearn.log_model(lr, "model", signature=signature)
+            mlflow.sklearn.log_model(lr, "model")

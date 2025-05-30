@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Soft11/Downloads/MLFLOW-TEST/mlruns/0/26e875bf81b24b3aaca8ce411b1628d8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26e875bf81b24b3aaca8ce411b1628d8
+run_name: rumbling-sheep-538
+run_uuid: 26e875bf81b24b3aaca8ce411b1628d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748583996661
+status: 1
+tags: []
+user_id: Soft11
